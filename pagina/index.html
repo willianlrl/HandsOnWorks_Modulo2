@@ -1,0 +1,57 @@
+<!-- testado na resolução 1366x768 e 1024x768 -->
+<html>
+<head>
+	<link href="estilo.css" rel="stylesheet" />  <!-- chama o arquivo de estilo (css) -->
+	<!-- links abaixo importam fontes externas -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+	
+	<meta charset="utf-8" />
+</head>
+<script src="javascript.js"></script>  
+<!-- //chama o arquivo com as funções javascript -->
+
+<body>
+	<header id="cabecalho">  
+	<!-- //o cabeçalho foi dividido em 3 div para que possam ser alocadas lado a lado com float -->
+		<div>
+			<img src="./_imagens/foto.jpg" id="foto"></img>
+		</div>
+		<div>
+			<h1>&nbsp&nbsp&nbsp&nbsp&nbspWILLIAN LUIZ <br /><br />RODRIGUES DE LIMA</h1>
+		</div>
+		<div>
+			<p>willianlrl@hotmail.com&nbsp&nbsp<img src="./_imagens/email-icon.png" class="icone" ></img></p>
+			<p>https://github.com/willianlrl&nbsp&nbsp<img src="./_imagens/gear-icon.png" class="icone" ></img></p>
+		</div>
+	<header>
+	<!-- //utilizadas duas section para alocar as informações pessoais e de formação lado a lado com float -->
+	<section id="formacao">
+		<h2><img src="./_imagens/formacao.png" class="icone"></img>&nbspFORMA&Ccedil;&Atilde;O</h2>
+		<p>Cursando o primeiro semestre de Análise e Desenvolvimento de Sistemas através da modalidade EAD em Universidade do Vale do Itajaí (UNIVALI)</p>
+		<p>Certificado por Microsoft como Microsoft Certified Solutions Associate (MCSA) Windows 8.<br /><br />MCID: 11740788</p>
+	</section>
+	<section id="pessoal">
+		<h2><img src="./_imagens/pessoal.png" class="icone"></img>&nbspSOBRE MIM</h2>
+		<p>Um brasileiro apaixonado por tecnologia, filmes, games e futebol</p>
+	</section>
+	<section id="profissional">
+		<h2><img src="./_imagens/profissional.png" class="icone_largura_total"></img>&nbspEXPERI&Ecirc;NCIA PROFISSIONAL</h2>
+	</section>
+	
+	<!-- //função javascript que muda a opacidade para 0.5 quando o mouse passa sobre a section e muda novamente a opacidade para 1 quando o mouse sai de cima da section -->
+	<section id="experiencia1" class="experiencia" onmouseover="experiencia1(0.5), experiencia1_texto_onmouseover()" onmouseout="experiencia1(1), experiencia1_texto_onmouseout()"> 
+		<h2 id="experiencia1_texto">UNIVERSIDADE DO VALE DO ITAJA&Iacute; - UNIVALI <br /> ITAJA&Iacute; <br /> 2016</h2>
+		<h5>Saiba mais aqui!&nbsp&nbsp&nbsp</h5>
+	</section>
+	<section id="experiencia2" class="experiencia" onmouseover="experiencia2(0.5), experiencia2_texto_onmouseover()" onmouseout="experiencia2(1), experiencia2_texto_onmouseout()"> 
+		<h2 id="experiencia2_texto">BITMIX INFORMÁTICA<br /> ITAJA&Iacute; <br /> 2012 - 2016</h2>
+		<h5>Saiba mais aqui!&nbsp&nbsp&nbsp</h5>
+	</section>
+	<section id="experiencia3" class="experiencia" onmouseover="experiencia3(0.5), experiencia3_texto_onmouseover()" onmouseout="experiencia3(1), experiencia3_texto_onmouseout()"> 
+		<h2 id="experiencia3_texto">BITLIFE INFORMÁTICA <br /> ITAJA&Iacute;<br /> 2009 - 2012</h2>
+		<h5>Saiba mais aqui!&nbsp&nbsp&nbsp</h5>
+	</section>
+</body>
+</html>

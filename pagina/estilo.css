@@ -1,0 +1,134 @@
+h1 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+	font-family: 'Raleway', sans-serif;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;;
+}
+
+h5{
+	text-align: right;
+}
+#cabecalho p{  /*alinha os ícones e o texto sobre o email e github à direita*/
+	text-align: right;
+	margin-top:10%;
+	
+}
+
+#cabecalho div{  /*alinha os itens do cabeçalho lado a lado, com cada um ocupando 33% da largura da tela e adiciona a margem inferior cinza*/
+	width: 33%;
+	height:30%;
+	float: left;
+	border: 0px;
+	border-bottom: 3px;
+	border-color: black;
+	border-style: solid;
+	
+}
+
+
+
+img#foto{
+	border-radius: 50%;       /*torna as bordas da imagem arredondadas. Alterada a altura e largura da imagem para torná-la redonda*/
+	width:35%;
+	height:80%;
+	margin-left:5%;
+}
+
+
+
+.icone{ /*define o tamanho dos ícones de email e engrenagem (github)*/
+	width:12%;
+	height:12%;
+}
+
+#formacao{ /*configura a section formacao para ocupar metade da largura da tela e flutuar a esquerda*/
+	width:49%;
+	height:80%;
+	float:left;
+	
+}
+
+#formacao h2{
+	border:0px;
+	margin-left:20%;
+	margin-right:20%;
+	border-bottom:3px;
+	border-style:solid;
+	text-align:center;
+}
+
+#formacao p{   /*as margens servem para deixar o texto mais centralizado na section enquanto que o word-wrap permite a quebra de palavras*/
+	margin-left:25%;
+	margin-right:25%;
+	text-align: justify;
+	word-wrap: break-word;
+}
+
+#pessoal{ /*configura a section pessoal para ocupar metade da largura da tela e flutuar a esquerda, mas visualmente ela fica a direita, 
+pois a section pessoal será flutuará ao lado da section formação*/
+	width:50%;
+	height:80%;
+	float:left;
+}
+
+#pessoal h2{
+	border:0px;
+	margin-left:20%;
+	margin-right:20%;
+	border-bottom:3px;
+	border-style:solid;
+	text-align:center;
+}
+
+#pessoal p{   /*as margens servem para deixar o texto mais centralizado na section enquanto que o word-wrap permite a quebra de palavras*/
+	margin-left:25%;
+	margin-right:25%;
+	text-align: justify;
+	word-wrap: break-word;
+}
+
+.icone_largura_total{
+	width:5%;
+	height:5%;
+}
+
+#profissional{
+	margin-left:10%;
+	margin-right:10%;
+}
+
+#profissional h2{
+	border:0px;
+	border-bottom:3px;
+	border-style: solid;
+	text-align:center;
+}
+
+.experiencia{
+	margin-top:6%;
+	border-width:1px;
+	border-style: solid;
+	border-color: gray;
+	margin-right: 20%;
+	margin-left: 20%;
+	height:30%;
+	width:60%;
+	text-align: center;
+	/* coloca sombras nas sections da classe experiencia */
+	box-shadow: #000 2px 2px 1px;  
+
+}
+
+.experiencia h2{
+	margin-top:6%;
+	margin-left:2%;
+	margin-right:2%;
+}
+
+
+
